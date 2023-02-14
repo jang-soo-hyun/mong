@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONG</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+    <!--js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/script.js"></script>
+    <style>
+        @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+    @font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <a href="#"><img src="/images/logo.png" alt=""></a>
+    </div>
+    <div id="gnb">
+        <ul>
+            <li><a href="index.html#container">MONG</a></li>
+            <li><a href="index.html#mid_wrap">PRODUCT</a></li>
+            <li><a href="index.html#container2">PROMOTION</a></li>
+            <li><a href="javascript:return false;">STORE</a></li>
+        </ul>
+    </div>
+    <div class="jb-box">
+        <video muted="" preload="true" loop autoplay webkit-playsinline="webkit-playsinline" playsinline="playsinline">
+          <source src="video/video2.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="container">
+        <div class="content">
+            <h2>한 잔과 함께 한편의 꿈들이 가득 차오른다.</h2>
+                <div id="section1">
+                    <!--contents1-->
+                    <div class="top_box1">
+                        <div data-aos="fade-up" data-aos-duration="2000">
+                            <img src="images/mong1.png" alt="pic">
+                        </div>
+                    </div>
+                    <div class="top_box2">
+                        <div data-aos="fade-up" data-aos-duration="2000">
+                            <img src="images/mong2.png" alt="pic">
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="mobile_top">
+            <p>기존의 전통주와 다르게 
+                <br> 어디서든 가볍게 마실 수 있는
+                <br>전통주 브랜드
+                <br>MONG</p>
+        </div>
+    </div>
+    <div id="container2">
+        <div class="content2">
+            <h2>다양하게 즐기는 MONG</h2>
+                <div id="section1">
+                    <!--contents1-->
+                    <div class="mid_box">
+                        <div data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="center-center">
+                            <img src="images/mong3.png" alt="pic">
+                        </div>
+                    </div>
+                    <div class="botten">
+                        <a href="javascript:return false;">바로 예약하기</a>
+                    </div>  
+                    </div>
+                </div>
+        </div>
+        <div id="section">
+            <ul>
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/banner.png" alt="prod">
+                        <div class="p_text">
+                            <p>우리쌀로 만든 우리술
+                                <br>전통증류기법으로 정성스럽게 빚습니다.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="mid_wrap"><!--mid s-->
+            <div class="mid">
+                <div class="title1">
+                    <img src="images/title1.png" alt="">
+                </div>
+                <ul class="mid_box1">
+                    <li><a href="javascript:return false;"><img src="images/mid1.png" alt=""></a></li>
+                    <li><a href="javascript:return false;"><h2>몽</h2></a></li>
+                    <li><a href="javascript:return false;"><p>350ml</p></a></li>
+                    <li><a href="javascript:return false;"><h3>12,800원</h3></a></li>
+                </ul>
+                <ul class="mid_box2">
+                    <li><a href="javascript:return false;"><img src="images/mid2.png" alt=""></a></li>
+                    <li><a href="javascript:return false;"><h2>매향몽</h2></a></li>
+                    <li><a href="javascript:return false;"><p>350ml</p></a></li>
+                    <li><a href="javascript:return false;"><h3>14,800원</h3></a></li>
+                </ul>
+                <ul class="mid_box3">
+                    <li><a href="javascript:return false;"><img src="images/mid3.png" alt=""></a></li>
+                    <li><a href="javascript:return false;"><h2>도향몽</h2></a></li>
+                    <li><a href="javascript:return false;"><p>350ml</p></a></li>
+                    <li><a href="javascript:return false;"><h3>14,800원</h3></a></li>
+                </ul>
+            </div>
+        </div><!--mid e-->
+       
+        <div id="footer"><!--footer_S-->
+            <!--1000/가운데/높이160-->
+            <p>
+                 기업명	(주)MONG
+                 <br>대표자  :  장수현   ㅣ 사업자등록번호  : 123-45-6789 
+                 <br>주소  :  서울특별시 강남구 테헤란로 74
+                 <br> 전화번호  : 02-123-4567  ㅣ  상담센터 1544-1234
+                 <br>개인정보책임관리자  :  장수현  ㅣ  통신판매업신고번호 제2022-서울강남-12345호
+            </p>
+            <ul class="footer_icon">
+                <li><a href="javascript:return false;"><img src="images/footer/footer_icon1.png" alt=""></a></li>
+                <li><a href="javascript:return false;"><img src="images/footer/footer_icon2.png" alt=""></a></li>
+                <li><a href="javascript:return false;"><img src="images/footer/footer_icon3.png" alt=""></a></li>
+                <li><a href="javascript:return false;"><img src="images/footer/footer_icon4.png" alt=""></a></li>
+            </ul>
+        </div><!--footer_E-->
+    
+
+</body>
+</html>
