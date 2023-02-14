@@ -230,6 +230,9 @@ body{
         font-size: 16px;
         color: #555;
     }
+    .top_box2{
+        display: none;
+    }
     #container2{
         width: 100%;
         margin: 30px auto 0;
@@ -281,9 +284,11 @@ body{
         font-family: 'Pretendard-Regular';
         color: #555;
         font-size: 20px;
+        padding-left: 15px;
     }
     .top_box1 img{
         width: 75%;
+        padding-left: 9px;
     }
     .mobile_top{
         width: 100%;
@@ -294,9 +299,6 @@ body{
         line-height: 25px;
         font-size: 16px;
         color: #555;
-    }
-     .top_box2{
-        display: none;
     }
     #container2{
         width: 100%;
