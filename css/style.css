@@ -217,6 +217,9 @@ body{
         color: #555;
         font-size: 20px;
     }
+     #section1{
+        width: 100%;
+    }
     .top_box1 img{
         width: 75%;
     }
