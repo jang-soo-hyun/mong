@@ -220,6 +220,14 @@ body{
      #section1{
         width: 100%;
     }
+    .top_box1{
+    float: left;
+    width: 100%;
+}
+.top_box2{
+    float: right;
+    width: 100%;
+}
     .top_box1 img{
         width: 75%;
     }
