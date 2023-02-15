@@ -634,8 +634,8 @@ body{
     font-family: 'Pretendard-Regular';
     margin: 0 auto;
     height: 280px;
-    background-color: #FFF;
-    position: relative;   
+    background-color: #ffffff;
+   text-align: center;   
 }
 #footer p{
     text-align: center;
@@ -645,18 +645,16 @@ body{
     color: #545454;
 }
 .footer_icon{
-    position: absolute;
-    top: 70%;
-    left: 45%;
+   display: inline-block;
+   
 }
 .footer_icon li{
-    display: block;
+    display: inline-block;
     float: left;
-    padding-right: 20px;
     
 }
-.footer_icon li a{
-
+.footer_icon li img{
+    padding: 20px 10px;
 }
 /*tablet 601-959*/
 @media (min-width:601px) and (max-width:959px) {
