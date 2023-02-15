@@ -156,7 +156,7 @@ body{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    height: 800px;
+    overflow: hidden;
 }
 .content{
     flex: 4 4 0;
@@ -189,8 +189,8 @@ body{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    height: 960px;
-    position: relative;
+    text-align: center;
+    overflow: hidden;
 }
 .content2{
     flex: 4 4 0;
@@ -209,10 +209,9 @@ body{
     border-radius: 150px;
     border: #333 solid 1px;
     box-shadow: 1px 2px 2px rgb(0, 0, 0, 0.3)inset;
-    position: absolute;
-    top: 78%;
-    left: 38%;
-    z-index: 9;
+    margin-bottom: 50px;
+    display: inline-block;
+    
 }
 .botten a{
     color: #555;
@@ -229,7 +228,7 @@ body{
         width: 100%;
         margin: 100px auto 0;
         display: block;
-        height: 695px;
+        overflow: hidden;
     }
     .content{
         flex: 4 4 0;
@@ -265,8 +264,7 @@ body{
         width: 100%;
         margin: 30px auto 0;
         display: block;
-        height: 800px;
-        position: relative;
+        overflow: hidden;
 }
     .content2{
         width: 100%;
@@ -284,16 +282,15 @@ body{
     .mid_box img{
         padding-top: 22px;
         width: 86%;
+        overflow: hidden;
         
     }
     .botten{
-        width: 50%;
+        width: 30%;
         height: 45px;
         display: block;
-        width: 60%;
-        top: 75%;
-        left: 20%;
-        z-index: 9;
+        margin-bottom: 50px;
+        display: inline-block;
     }
     .botten a{
         color: #555;
@@ -310,7 +307,8 @@ body{
         width: 100%;
         margin: 100px auto 0;
         display: block;
-        height: 800px;
+        overflow: hidden;
+       
     }
     .content{
         flex: 4 4 0;
@@ -348,8 +346,7 @@ body{
         width: 100%;
         margin: 30px auto 0;
         display: block;
-        height: 450px;
-        position: relative;
+        overflow: hidden;
 }
 
      .content2 h2{
@@ -366,9 +363,10 @@ body{
         height: 45px;
         display: block;
         width: 60%;
-        top: 75%;
-        left: 20%;
-        z-index: 9;
+        margin-bottom: 50px;
+        display: inline-block;
+        
+      
     }
     .botten a{
         color: #555;
@@ -445,8 +443,9 @@ body{
     
 }
 #mid_wrap{
-    height: 980px;
+    overflow: hidden;
     background-color: #e0f1fd;
+    padding-bottom: 220px;
 }
 .mid{
     font-family: 'Pretendard-Regular';
@@ -455,18 +454,18 @@ body{
 }
 .title1{
     padding-top: 100px;
-    padding-left: 8px;
+    padding-right: 30px;
     padding-bottom: 50px;
     text-align: center;
 }
 .mid_box1{
     width: 400px;
-    height: 552px;
+    overflow: hidden;
     text-align: center;
     box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
     float: left;
-    margin-right: 110px;
     background-color: #fff;
+    padding-bottom: 20px;
 }
 .mid_box1 li{
     display: block;
@@ -492,12 +491,13 @@ body{
 }
 .mid_box2{
     width: 400px;
-    height: 552px;
+    overflow: hidden;
     text-align: center;
     box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
     float: left;
-    margin-right: 110px;
     background-color: #fff;
+    margin: 0 7%;
+    padding-bottom: 20px;
 }
 .mid_box2 li{
     display: block;
@@ -523,11 +523,12 @@ body{
 }
 .mid_box3{
     width: 400px;
-    height: 552px;
+    overflow: hidden;
     text-align: center;
     box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
-    float: left;
+    float: right;
     background-color: #fff;
+    padding-bottom: 20px;
 }
 .mid_box3 li{
     display: block;
@@ -554,13 +555,15 @@ body{
 @media (max-width:1420px){
     #mid_wrap{
         width: 100%;
-        height: 800px;
+        overflow: hidden;
         background-color: #e0f1fd;
+        padding-bottom: 220px;
     }
     .mid{
         font-family: 'Pretendard-Regular';
         width: 59%;
         margin: 0 auto;
+        overflow: hidden;
     }
     .title1{
         padding-top: 100px;
@@ -569,14 +572,13 @@ body{
         text-align: center;
     }
     .mid_box1{
-        width: 32%;
-        height: 389px;
+        width: 31%;
+        overflow: hidden;
         text-align: center;
         box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
         float: left;
-        margin-right: 15px;
         background-color: #fff;
-        margin-bottom: 30px;
+        padding-bottom: 20px;
     }
     .mid_box1 li{
         display: block;
@@ -603,13 +605,13 @@ body{
     }
     .mid_box2{
         width: 31%;
-        height: 389px;
+        overflow: hidden;
         text-align: center;
         box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
         float: left;
-        margin-right: 15px;
+        margin: 0 3.5%;
         background-color: #fff;
-        margin-bottom: 30px;
+        padding-bottom: 20px;
     }
     .mid_box2 li{
         display: block;
@@ -636,12 +638,12 @@ body{
     }
     .mid_box3{
         width: 31%;
-        height: 389px;
+        overflow: hidden;
         text-align: center;
         box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
-        float: left;
+        float: right;
         background-color: #fff;
-        margin-bottom: 30px;
+        padding-bottom: 20px;
     }
     .mid_box3 li{
         display: block;
@@ -673,8 +675,9 @@ body{
 @media (max-width:600px){
     #mid_wrap{
         width: 100%;
-        height: 1750px;
+        overflow: hidden;
         background-color: #e0f1fd;
+        padding-bottom: 40px;
     }
     .mid{
         font-family: 'Pretendard-Regular';
@@ -689,13 +692,14 @@ body{
         text-align: center;
     }
     .mid_box1{
-        width: 117%;
-        height: 450px;
+        width: 100%;
+        overflow: hidden;
         text-align: center;
         box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
         float: left;
-        margin-right: 110px;
+        margin: 0 0;
         background-color: #fff;
+        padding-bottom: 20px;
         margin-bottom: 30px;
     }
     .mid_box1 li{
@@ -722,13 +726,14 @@ body{
         color: #222;
     }
     .mid_box2{
-        width: 117%;
-        height: 450px;
+        width: 100%;
+        overflow: hidden;
         text-align: center;
         box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
         float: left;
-        margin-right: 110px;
+        margin: 0 0;
         background-color: #fff;
+        padding-bottom: 20px;
         margin-bottom: 30px;
     }
     .mid_box2 li{
@@ -755,13 +760,14 @@ body{
         color: #222;
     }
     .mid_box3{
-        width: 117%;
-        height: 450px;
+        width: 100%;
+        overflow: hidden;
         text-align: center;
         box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
         float: left;
+        margin: 0 0;
         background-color: #fff;
-        margin-bottom: 30px;
+        padding-bottom: 20px;
     }
     .mid_box3 li{
         display: block;
