@@ -77,6 +77,11 @@ body{
         font-size: 40px;
         color: rgb(253, 236, 42);
     }
+        #logo{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
     .jb-box {display: none;}
   
     
