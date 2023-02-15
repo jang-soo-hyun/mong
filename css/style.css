@@ -294,7 +294,7 @@ body{
         text-align: center;
         font-family: 'Pretendard-Regular';
         color: #555;
-        font-size: 20px;
+        font-size: 18px;
         padding-left: 15px;
     }
     .top_box1 img{
@@ -326,7 +326,7 @@ body{
 }
     .mid_box img{
         padding-top: 50px;
-        width: 106%;
+        width: 101%;
     }
     .botten{
         height: 45px;
