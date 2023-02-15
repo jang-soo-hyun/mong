@@ -298,7 +298,7 @@ body{
         padding-left: 15px;
     }
     .top_box1 img{
-        width: 75%;
+        width: 104%;
         padding-left: 9px;
     }
     .mobile_top{
@@ -326,7 +326,7 @@ body{
 }
     .mid_box img{
         padding-top: 50px;
-        width: 29%;
+        width: 106%;
     }
     .botten{
         height: 45px;
@@ -531,7 +531,7 @@ body{
     }
     .mid_box1{
         width: 117%;
-        height: 450px;
+        height: 413px;
         text-align: center;
         box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
         float: left;
@@ -564,7 +564,7 @@ body{
     }
     .mid_box2{
         width: 117%;
-        height: 450px;
+        height: 413px;
         text-align: center;
         box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
         float: left;
@@ -597,7 +597,7 @@ body{
     }
     .mid_box3{
         width: 117%;
-        height: 450px;
+        height: 413px;
         text-align: center;
         box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
         float: left;
