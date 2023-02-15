@@ -15,12 +15,6 @@ body{
      display: none;
    } */
 
-/*logo_공통*/
-#logo{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
 /*pc_1420*/
 @media (min-width:1420px){
     #header{
@@ -30,6 +24,12 @@ body{
         background-color: #fff;
         background-repeat: no-repeat;
         background-position: center ;
+    }
+    
+    #logo{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 }
 /*tablet_601-959*/
